@@ -1,0 +1,68 @@
+/* External custom CSS (style.css) */
+
+/* Custom styles */
+/* Add your custom CSS rules here */
+
+/* Example custom styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+h2 {
+    color: #333; /* Dark gray heading color */
+}
+
+button {
+    padding: 8px 16px; /* Decreased padding for smaller buttons */
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 14px; /* Decreased font size for smaller buttons */
+    margin-top: 10px; /* Add space above the buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%; /* Take up full width */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray table header background */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+/* Decrease the width of the table cell containing textboxes */
+td input[type="number"],
+td input[type="text"] {
+    width: 150px; /* Adjust the width as needed */
+}
